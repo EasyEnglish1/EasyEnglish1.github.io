@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ru">
+    <head<>
+        <title>EasyEnglish - best personal practice</title>
+        <meta charset="utf-8">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/mfp.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery.js"></script>
+        <script src="js/mfp.js"></script>
+        <script src="js/wow.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header-nav">
+                <div class="logo">
+                    <img src="imgs/logo-header.png" alt="logo">
+                </div>
+                <ul class="header-nav-list" id="menu">
+                    <li class="header-nav-item">
+                        <a href="#about" class="header-nav-item__link">Обо мне</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#study" class="header-nav-item__link">Обучение</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#course" class="header-nav-item__link">Курс</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#feedback" class="header-nav-item__link">Отзывы</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#contacts" class="header-nav-item__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--burger menu-->
+        <div class="m-burg">
+            <input type="checkbox" id="btn" class="m-checkbox">
+            <label class="m-btn" for="btn"></label>
+            <div class="m-menu" id="m-menu">
+                <a href="#about" class="m-menu__link">Обо мне</a>
+                <a href="#study" class="m-menu__link">Обучение</a>
+                <a href="#course" class="m-menu__link">Курс</a>
+                <a href="#feedback" class="m-menu__link">Отзывы</a>
+                <a href="#contacts" class="m-menu__link">Контакты</a>
+            </div>
+        </div>
+        <!--popup-form-->
+        <div class="popup-form mfp-hide" id="popup-form">
+            <form method="post" class="callback-form">
+                <p class="description callback-form__description">Заполнте форму и мы Вам перезвоним</p>
+                <input type="text" class="callback-form__input" placeholder="Ваше имя">
+                <input type="text" class="callback-form__input" placeholder="Ваш телефон">
+                <buton type="submit" class="callback-form__button">Записаться</buton>
+            </form>
+        </div>
+        <div class="intro">
+            <section class="info-container">
+                <div class="intro-content">
+                    <h1 class="intro-title m-intro-title">Teach</h1>
+                    <p class="intro-subtitle m-intro-subtitle">Английский намного проще чем может казаться</p>
+                    <p class="intro-info m-intro-info">Не теряйте время!<br>
+                                          Запишитесь на пробный урок!
+                    </p>
+                    <a href="#popup-form" class="intro-btn intro-btn_position open-popup-link">записатсья</a>
+                </div>
+            </section>
+            <section class="img-container">
+                <img src="imgs/teacher1.png" alt="teacher" class="img-container__img">
+            </section>
+            <img src="imgs/dot2.png" alt="dots-decor" class="dots-decor intro__dots">
+            <img src="imgs/string.png" alt="string" class="string-decor intro__string">
+            <div class="anchor-link-fix" id="about"></div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="page-title-fixer">
+                    <div class="page-title-fixer__title">Обо мне</div>
+                </div>
+                <div class="about-container wow fadeInLeft" data-wow-delay="0.5s">
+                    <section class="about-img-box">
+                        <img src="imgs/English-teacher.png" alt="teacher" class="about-img">
+                    </section>
+                    <section class="about-info-box">
+                        <h1 class="text-title about-info-box__text-title">Репетитор</h1>
+                        <h2 class="text-subtitle about-info-box__text-subtitle">Алина Арнольдовна</h2>
+                        <p class="subtitle-description about-info-box__subtitle-description">Сертификат Кембриджского университета CPE (Proficiency) - язык на уровне образованного носителя</p>
+                        <p class="description about-info-box__description">Моё знакомство с анлийским произошло еще в школе, и я влюбилась в этот язык. Не буду лукавить, были моменты когда я хотела бросить изучение. Но я благодарна своему педагогу который настоял на дальнейшем изучении. И в будущем я хочу стать для вас таким репетитором. За моими плечами стоит долгий путь изучения, уже больше чем 15 лет я владею этим языком. Жила в США и Великобритании. Опыт частного репетитора английского языка 12 лет.
+                                Частный репетитор английского языка – это не только перподаватель дающий знания, но и Ваш союзник, который радуется Вашим успехам вместе с Вами.</p>
+                    </section>
+                </div>
+                <img src="imgs/dot2.png" alt="dots-decor" class="dots-decor about-dots-decor">
+                <img src="imgs/fig1.png" alt="spot-decor" class="spot-decor about-spot-decor">
+                <div class="anchor-link-fix anchor-link-fix_others" id="study"></div>
+            </div>
+        </div>
+        <div class="groups">
+            <div class="container">
+                <div class="page-title-fixer">
+                    <div class="page-title-fixer__title">Обучение</div>
+                </div>
+                <div class="tiles-box">
+                    <div class="tiles tiles_hover-1 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="tile-number tile-number_hover-1">1</div>
+                        <img src="imgs/P1.png" alt="icon" class="tile-icon">
+                        <h2 class="text-subtitle tiles__text-subtitle">Индивидуальные занятия</h2>
+                        <p class="description">
+                            Занятия осуществляются индивидуально в учебном центре или по skype. Частный репетитор английского языка – это не только перподаватель дающий знания, но и Ваш союзник, который радуется Вашим успехам вместе с Вами.
+                        </p>
+                    </div>
+                    <div class="tiles tiles_pusher tiles_hover-2 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="tile-number tile-number_hover-2">2</div>
+                        <img src="imgs/P2.png" alt="icon" class="tile-icon">
+                        <h2 class="text-subtitle tiles__text-subtitle">Мини группа</h2>
+                        <p class="description">
+                            Небольшие группы для изучения английского это всегда интересно, можно подключать живые диалоги и веселый и полезные игры.  Иностранный язык, в частности английский, сегодня высоко востребован обществом.
+                        </p>
+                    </div>
+                    <div class="tiles tiles_hover-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="tile-number tile-number_hover-3">3</div>
+                        <img src="imgs/P3.png" alt="icon" class="tile-icon">
+                        <h2 class="text-subtitle tiles__text-subtitle">Подготовка к экзаменам</h2>
+                        <p class="description">
+                            Даже будучи хорошим носителем языка, вы переживаете по поводу сдачи экзаменов. С этим вопросом помогу справится вам я. Это очень грозные противники, они всегда идут рука об руку. Противопоставить им мы можем только нашу упертость и интерес к предмету. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="course">
+            <div class="container">
+                <div class="page-title-fixer">
+                    <div class="ancor-course-fix" id="course"></div>
+                    <div class="page-title-fixer__title">Курс</div>
+                </div>
+                <div class="course-box wow fadeInRight" data-wow-delay="0.5s">
+                    <section class="course-inner">
+                        <img src="imgs/course-img1.png" alt="course1" class="course-inner__img">
+                    </section>
+                    <section class="course-inner">
+                        <h1 class="text-title course-inner__text-title">
+                            Говорим на английском
+                        </h1>
+                        <p class="description course-inner__description">
+                            Единственный реальный способ научиться нормально говорить на английском языке - это просто начать говорить, пусть даже с ошибками. Но ни на курсах английского языка вас не выслушают, и ни компьютер, ни диски, ни интерактивные интернет-сайты и программы не исправят Вас, не объяснят, "как нельзя говорить". Даже носители английского языка порой тут бессильны. Они не могут по-английски доходчиво донести до новичка правила языка. Часто native speakers и сами толком не знают, как нужно сказать правильно и почему именно так - грамотно. 
+                        </p>
+                    </section>
+                </div>
+                <div class="course-box wow fadeInLeft m-reverse" data-wow-delay="0.5s">
+                    <section class="course-inner">
+                        <h1 class="text-title course-inner__text-title">
+                            Слушаем английский
+                        </h1>
+                        <p class="description course-inner__description">
+                                В течении урока слушаем только английскую речь. Спомощью общения, видео и аудио файлов.  Частный репетитор английского языка – это не только перподаватель дающий знания, но и Ваш союзник, который радуется Вашим успехам вместе с Вами. Иностранный язык, в частности английский, сегодня высоко востребован обществом. В Москве без знаний английского языка довольно трудно продвигаться по карьерной лестнице или достичь определённых целей в бизнесе.
+                        </p>
+                    </section>
+                    <section class="course-inner">
+                        <img src="imgs/course-img2.png" alt="course1" class="course-inner__img">
+                    </section>
+                </div>
+                <div class="course-box wow fadeInRight" data-wow-delay="0.5s">
+                    <section class="course-inner">
+                        <img src="imgs/course-img3.png" alt="course1" class="course-inner__img">
+                    </section>
+                    <section class="course-inner">
+                        <h1 class="text-title course-inner__text-title">
+                            Видео обучение
+                        </h1>
+                        <p class="description course-inner__description">
+                                Учённые довели что человек воспринимает информацию лучше визуально. В моей программе не однократно используются видео материалы.Плох или хорош тот или иной преподаватель определяется прежде всего не тем, насколько хорошо он знает язык, хотя, конечно это важно, а тем, насколько успешно он помогает вам все время подхлестывать интерес к учебе. Тут все средства хороши. Это очень грозные противники, они всегда идут рука об руку. 
+                        </p>
+                    </section>
+                </div>
+                <div class="course-box wow fadeInLeft m-reverse" data-wow-delay="0.5s">
+                    <section class="course-inner">
+                        <h1 class="text-title course-inner__text-title">
+                            Игровое восприятие
+                        </h1>
+                        <p class="description course-inner__description">
+                                Все мы родом из детства, и спомощью игор можно хорошо научиться запоминать слова, разговаривать, писать. Это обычное дело. Поэтому если уж решились изучать английский язык, то расчистите свой график на следующие несколько месяцев, запаситесь терпением, и когда крепость будет, наконец, взята, радость от этой победы уже никогда вас не покинет. С этого момента у вас будет два союзника в борьбе с всепобеждающей ленью — привычка и осознание собственной силы. 
+                        </p>
+                    </section>
+                    <section class="course-inner">
+                        <img src="imgs/course-img4.png" alt="course1" class="course-inner__img">
+                    </section>
+                </div>
+            </div>
+            <img src="imgs/dot2.png" alt="dots-decor" class="dots-decor course__dots-decor">
+            <img src="imgs/fig1.png" alt="figure" class="spot-decor course__spot-decor-1">
+            <img src="imgs/fig2.png" alt="figure" class="spot-decor course__spot-decor-2">
+            <img src="imgs/fig3.png" alt="figure" class="spot-decor course__spot-decor-3">
+        </div>
+        <div class="seporator">
+            <div class="anchor-link-fix anchor-link-fix_feedback" id="feedback"></div>
+        </div>
+        <div class="feedback">
+            <div class="container">
+                <div class="page-title-fixer">
+                    <div class="page-title-fixer__title">Отзывы</div>
+                </div>
+                <div class="feedback-box">
+                    <section class="feedback-inner wow fadeInDown" data-wow-delay="0.5s">
+                        <img src="imgs/user1.png" alt="user" class="feedback-inner__photo">
+                        <h2 class="text-subtitle feedback-inner__text-subtitle">Матвей Русакович</h2>
+                        <p class="feedback-inner__under-subtitle">Менеджер</p>
+                        <p class="description feedback-inner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    </section>
+                    <section class="feedback-inner wow fadeInDown m-seporator" data-wow-delay="0.5s">
+                        <img src="imgs/user2.png" alt="user" class="feedback-inner__photo">
+                        <h2 class="text-subtitle feedback-inner__text-subtitle">Лиля Сверлова</h2>
+                        <p class="feedback-inner__under-subtitle">Студентка</p>
+                        <p class="description feedback-inner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    </section>
+                    <section class="feedback-inner wow fadeInDown" data-wow-delay="0.5s">
+                        <img src="imgs/user3.png" alt="user" class="feedback-inner__photo">
+                        <h2 class="text-subtitle feedback-inner__text-subtitle">Светлана Кузнецова</h2>
+                        <p class="feedback-inner__under-subtitle">Студентка</p>
+                        <p class="description feedback-inner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                    </section>
+                </div>
+            </div>
+            <img src="imgs/fig3.png" alt="spot-decor" class="spot-decor feedback__spot-decor feedback_spot-decor-size">
+        </div>
+        <div class="contacts" id="contacts">
+            <div class="container">
+                <div class="page-title-fixer">
+                    <div class="page-title-fixer__title">Контакты</div>
+                </div>
+                <div class="contacts-box">
+                    <div class="contacts-box-inner m-contacts-box-inner">
+                        <h2 class="text-subtitle contacts-box-inner__text-subtitle">Алина Арнольдовна</h2>
+                        <p class="description contacts-box-inner__description">Репетитор английского языка</p>
+                        <p class="description contacts-box-inner__description-phone">
+                            095-414-22-44<br>
+                            063-784-11-22
+                        </p>
+                        <div class="contacts-bottom-decor">
+                            <div class="contacts-bottom-decor__block"></div>
+                            <div class="contacts-bottom-decor__block"></div>
+                            <div class="contacts-bottom-decor__block"></div>
+                        </div>
+                    </div>
+                    <div class="contacts-box-inner__seporator"></div>
+                    <div class="contacts-box-inner">
+                        <h2 class="text-subtitle contacts-box-inner__text-subtitle">
+                            г.Харьков<br>
+                            ул.Зеленная, д.14, оф.15а
+                        </h2>
+                        <iframe class="contacts-box-inner__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.9831911603897!2d36.24132524958401!3d50.01167026230519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0dbd3432627%3A0x5050954abba7d85e!2z0YPQuy4g0KHRg9C80YHQutCw0Y8sINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2MTAwMA!5e0!3m2!1sru!2sua!4v1559205892253!5m2!1sru!2sua" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <img src="imgs/dot2.png" alt="dots-decor" class="dots-decor contacts-box__dots-decor">
+                    <img src="imgs/string.png" alt="string-decor" class="string-decor contacts-box__string-decor">
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-inner">
+                <ul id="footer-menu">
+                    <li class="footer-list-item"><a href="#about" class="footer-list-item__link">Обо мне</a></li>
+                    <li class="footer-list-item"><a href="#study" class="footer-list-item__link">Группы</a></li>
+                    <li class="footer-list-item"><a href="#course" class="footer-list-item__link">Курс</a></li>
+                    <li class="footer-list-item"><a href="#feedback" class="footer-list-item__link">Отзывы</a></li>
+                    <li class="footer-list-item"><a href="#contacts" class="footer-list-item__link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-inner">
+                <img src="imgs/logo-footer.png" alt="footer-logo" class="footer-logo">
+            </div>
+        </footer>
+        <script>
+            $(document).ready(function(){
+                $("#menu, #footer-menu, #m-menu").on("click","a", function (event) {
+                    //отменяем стандартную обработку нажатия по ссыл
+                    event.preventDefault();
+                    //забираем идентификатор бока с атрибута href
+                    var id  = $(this).attr('href'),
+                    //узнаем высоту от начала страницы до блока на который ссылается якорь          
+                    top = $(id).offset().top;           
+                    //анимируем переход на расстояние - top за 1500 мс            
+                    $('body,html').animate({scrollTop: top}, 1000);            
+                });            
+            });
+        </script>
+        <script>
+            $('.open-popup-link').magnificPopup({
+                type:'inline',
+                midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+            });
+        </script>
+        <script>
+            new WOW().init();
+        </script>
+    </body>
+</html>
